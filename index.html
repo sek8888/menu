@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A mobile-friendly web page">
+    <meta name="keywords" content="HTML, CSS, mobile, responsive">
+    <meta name="author" content="Your Name">
+    <title>Mobile Friendly Page</title>
+    <style>
+        /* Basic mobile-friendly styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #ECE2D6;
+        }
+
+        header {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 1em;
+            align-content: center;
+            max-width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            text-align: center;
+            max-width: 480px;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom: 1px dashed #BAA06F;
+        }
+
+        .product-name {
+            float: left;
+            width: 70%;
+            font-weight: bolder;
+            text-align: left;
+        }
+
+        .product-price {
+            float: left;
+            width: 30%;
+            font-weight: bolder;
+            text-align: right;
+        }
+
+        .product-price span {}
+
+        .category-title {
+            font-weight: bolder;
+            text-align: center;
+            color: #BAA06F;
+            margin-bottom: 20px;
+        }
+
+        .category {
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            height: 120px;
+        }
+
+        hr {
+            border: 2px solid #BAA06F;
+            width: 55%;
+        }
+
+        .name-descr {
+            font-size: 14px;
+        }
+
+        .price-img {
+            display: inline-block;
+            height: 26px;
+        }
+
+        .price-img-bottle {
+            display: inline-block;
+            height: 37px;
+            margin-right: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="logo.png">
+    </header>
+
+    <div class="container">
+        <div class="manu">
+            <div class="category">
+                <div class="category-title">ՍՈՒՐՃ | КОФЕ | COFFEE</div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԷՍՊՐԵՍՈ</div>
+                        <div class="name-ru">ЭСПРЕССО</div>
+                        <div class="name-en">ESPRESSO</div>
+                    </div>
+                    <div class="product-price">600֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԱՄԵՐԻԿԱՆՈ</div>
+                        <div class="name-ru">АМЕРИКАНО</div>
+                        <div class="name-en">AMERICANO</div>
+                    </div>
+                    <div class="product-price">700֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԿԱՊՈԻՉԻՆՈ</div>
+                        <div class="name-ru">КАПУЧИНО</div>
+                        <div class="name-en">CAPPUCCINO</div>
+                    </div>
+                    <div class="product-price">1100֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԷՍՊՐԵՍՈ ՄԱԿԻԱՏՈ</div>
+                        <div class="name-ru">ЭСПРЕССО МАКИATO</div>
+                        <div class="name-en">ESPRESSO MACCHIATO</div>
+                    </div>
+                    <div class="product-price">1000֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՍՈՒՐՃ ԼԱՏԵ</div>
+                        <div class="name-ru">ЛАТТЕ</div>
+                        <div class="name-en">CAFFE LATTE</div>
+                    </div>
+                    <div class="product-price">1000֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՍՈՒՐՃ ՄՈԿԱ</div>
+                        <div class="name-ru">MOKA</div>
+                        <div class="name-en">CAFFE MOCHA</div>
+                    </div>
+                    <div class="product-price">1500֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՏԱՔ ՇՈԿՈԼԱԴ</div>
+                        <div class="name-ru">ГОРЯЧИЙ ШОКОЛАД</div>
+                        <div class="name-en">Hot Chocolate</div>
+                    </div>
+                    <div class="product-price">1500֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՓԱՐԻԶՅԱՆ ՍՈՒՐՃ</div>
+                        <div class="name-ru">ПАРИЖСКИЙ</div>
+                        <div class="name-en">PARISIAN</div>
+                    </div>
+                    <div class="product-price">400֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԱՐևԵԼՅԱՆ ՍՈՒՐՃ</div>
+                        <div class="name-ru">ВОСТОЧНЫЙ КОФЕ</div>
+                        <div class="name-en">EASTERN COFFEE</div>
+                    </div>
+                    <div class="product-price">400֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՆԵՍԿԱՖԵ ԿԼԱՍԻԿ</div>
+                        <div class="name-ru">КОФЕ РАСТВОРИМЫЙ</div>
+                        <div class="name-en">INSTANT COFFEE</div>
+                    </div>
+                    <div class="product-price">400֏</div>
+                </div>
+                <hr />
+            </div>
+            <div class="category">
+                <div class="category-title">ՍԱՌԸ ՍՈՒՐՃ | ХОЛОДНЫЙ КОФЕ | ICE COFFEE</div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՍԱՌԸ ԱՄԵՐԻԿԱՆՈ</div>
+                        <div class="name-ru">ХОЛОДНЫЙ АМЕРИКАНО </div>
+                        <div class="name-en">ICED AMERICANO</div>
+                    </div>
+                    <div class="product-price">700֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՍՈՒՐՃ ԳԼՅԱՍԵ</div>
+                        <div class="name-ru">КОФЕ ГЛЯСЕ</div>
+                        <div class="name-en">CAFFE GLACE</div>
+                    </div>
+                    <div class="product-price">1000֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՍԱՌԸ ԿԱՊՈՒՉԻՆՈ</div>
+                        <div class="name-ru">ХОЛОДНЫЙ КАПУЧИНО</div>
+                        <div class="name-en">ICE CAPPUCCINO</div>
+                    </div>
+                    <div class="product-price">1200֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԲԼԵՆԴԻՍԻՄՈ
+                            <span class="name-descr"><br>&nbsp;Էսպրեսո, պաղպաղակ, հարած սերուցք,</span>
+                        </div>
+                        <div class="name-ru">БЛЕНДИСИМО
+                            <span class="name-descr"><br>&nbsp;Эспрессо, мороженое, покрытое взбитыми сливками</span>
+                        </div>
+                        <div class="name-en">BLENDISSIMO
+                            <span class="name-descr"><br>&nbsp;Espresso, ice cream with whipped cream topping</span>
+                        </div>
+                    </div>
+                    <div class="product-price">1400֏</div>
+                </div>
+
+                <hr />
+            </div>
+            <div class="category">
+                <div class="category-title">ԹԵՅ | ЧАЙ | TEA</div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am"> ԹԵՅ ԿԱՆԱՉ, ՍԵՎ, ԿԱՐՄԻՐ</div>
+                        <div class="name-ru">ЧАЙ ЗЕЛЕНЫЙ, ЧЕРНЫЙ, КРАСНЫЙ</div>
+                        <div class="name-en">FLAVOURED GREEN / BLACK|RED TEA</div>
+                    </div>
+                    <div class="product-price">
+                        <div>500/1000֏</div>
+                        <img class="price-img" src="cup_teapot.png">
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԿՈՃԱՊՂՊԵՂՈՎ, ՄԵՂՐՈՎ ԿԻՏՐՈՆՈՎ ԹԵՅ</div>
+                        <div class="name-en">ЧАЙ С ИМБИРЕМ, МЕДОМ И ЛИМОНОМ</div>
+                        <div class="name-ru">TEA WITH GINGER, HONEY, AND LEMON</div>
+                    </div>
+                    <div class="product-price">
+                        <div>600/1500֏</div>
+                        <img class="price-img" src="cup_teapot.png">
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՉԻՉԽԱՆԻ ԹԵՅ ԿՈՃԱՊՂՊԵՂՈՎ </div>
+                        <div class="name-ru">ЧАЙ ОБЛЕПИХОВЫЙ С ИМБИРЕМ</div>
+                        <div class="name-en">BUCKTHORN TEA WITH GINGER</div>
+                    </div>
+                    <div class="product-price">
+                        <div>600/1500֏</div>
+                        <img class="price-img" src="cup_teapot.png">
+                    </div>
+                </div>
+                <hr />
+            </div>
+            <div class="category">
+                <div class="category-title">ՊԱՂՊԱՂԱԿ | МОРОЖЕНОЕ | ICE CREAM</div>
+                <hr />
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՊԱՂՊԱՂԱԿ 180 ԳՐ </div>
+                        <div class="name-ru">МОРОЖЕНОЕ 180 Г</div>
+                        <div class="name-en">ICE CREAM 180 G</div>
+                    </div>
+                    <div class="product-price">700֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՍՐՃԱՅԻՆ ԱՖՈԳԱՏՈ</div>
+                        <div class="name-ru">КОФЕЙНЫЙ АФОГАТО</div>
+                        <div class="name-en">COFFEE AFFOGATO</div>
+                    </div>
+                    <div class="product-price">1200֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԿՈՊԱ ՆՈՉԻՈԼԻԱՏՈ</div>
+                        <div class="name-ru">КОППА НОЧИОЛИАТО</div>
+                        <div class="name-en">COPPA NOCCIOLATO</div>
+                    </div>
+                    <div class="product-price">1200֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ԲԱՆԱՆՈՎ ԵՎ ՇՈԿՈԼԱԴՈՎ</div>
+                        <div class="name-ru">С БАНАНОМ И ШОКОЛАДОМ</div>
+                        <div class="name-en">BANANA & CHOCOLATE</div>
+                    </div>
+                    <div class="product-price">1500֏</div>
+                </div>
+
+            </div>
+
+            <div class="category">
+                <div class="category-title">ՍԱՌԸ ԸՄՊԵԼԻՔՆԵՐ | ХОЛОДНЫЕ НАПИТКИ | SOFT DRINKS</div>
+                <hr />
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am"> ԹԵՅ ԿԱՆԱՉ, ՍԵՎ, ԿԱՐՄԻՐ</div>
+                        <div class="name-ru">ЧАЙ ЗЕЛЕНЫЙ, ЧЕРНЫЙ, КРАСНЫЙ</div>
+                        <div class="name-en">FLAVOURED GREEN / BLACK|RED TEA</div>
+                    </div>
+                    <div class="product-price">500/1000֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am"> ԹԵՅ ԿԱՆԱՉ, ՍԵՎ, ԿԱՐՄԻՐ</div>
+                        <div class="name-ru">ЧАЙ ЗЕЛЕНЫЙ, ЧЕРНЫЙ, КРАСНЫЙ</div>
+                        <div class="name-en">FLAVOURED GREEN / BLACK|RED TEA</div>
+                    </div>
+                    <div class="product-price">500/1000֏</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՉԻՉԽԱՆԻ ԹԵՅ ԿՈՃԱՊՂՊԵՂՈՎ </div>
+                        <div class="name-ru">ЧАЙ ОБЛЕПИХОВЫЙ С ИМБИРЕМ</div>
+                        <div class="name-en">BUCKTHORN TEA WITH GINGER</div>
+                    </div>
+                    <div class="product-price">
+                        <div>600/1500֏</div>
+                        <img class="price-img-bottle" src="glass_bottle.png">
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        <div class="name-am">ՉԻՉԽԱՆԻ ԹԵՅ ԿՈՃԱՊՂՊԵՂՈՎ </div>
+                        <div class="name-ru">ЧАЙ ОБЛЕПИХОВЫЙ С ИМБИРЕМ</div>
+                        <div class="name-en">BUCKTHORN TEA WITH GINGER</div>
+                    </div>
+                    <div class="product-price">
+                        <div>600/1500֏</div>
+                        <img class="price-img-bottle" src="glass_bottle.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
