@@ -4,8 +4,7 @@ body {
     line-height: 1.6;
     background-color: #ECE2D6;
     box-sizing: border-box;
-     margin: 10px; 
-    margin-right: 58px; 
+    margin: 10px;
 }
 
 header {
@@ -25,14 +24,12 @@ header {
 .product {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
     text-align: center;
-     max-width: 480px;
+    max-width: 480px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 1px dashed #BAA06F;
-    margin: 30px;
-   
+    border-bottom: 1px dashed #BAA06F;   
 }
 
 
