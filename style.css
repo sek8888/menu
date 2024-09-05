@@ -69,6 +69,10 @@ header {
 
 }
 
+.dark-bg {
+    background-color: #baa17050;
+} 
+
 .category-title {
     font-weight: bolder;
     text-align: center;
@@ -78,11 +82,6 @@ header {
     font-size: 20px;
 }
 
-.category2 {
-    background-color: #baa17050;
-     border-radius: 30px;
-    margin-bottom: 30px;
-} 
 
 .category-title2 {
     font-weight: bolder;
